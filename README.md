@@ -67,6 +67,8 @@
         --region us-east-1 \
         --cluster eksdemo \
         --approve
+
+     aws eks describe-cluster --name eksdemo --query cluster.identify.oidc.issuer --output text
 					  
 # Step7: Create node-group:
     eksctl create nodegroup --cluster=eksdemo \
