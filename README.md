@@ -80,7 +80,7 @@
                        --nodes-max=4 \
                        --node-volume-size=10 \
                        --ssh-access \
-                       --ssh-public-key=devops-demo-est \
+                       --ssh-public-key=devopskey \
                        --managed \
                        --asg-access \
                        --external-dns-access \
